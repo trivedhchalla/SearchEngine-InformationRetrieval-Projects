@@ -5,10 +5,10 @@ This repository contains assignments for the **Search Engine & Information Retri
 ---
 
 ## Repository Structure
-SearchEngine-InformationRetrieval-Projects/
-│
-├── Assignment1_202410101200034.py
-├── Assignment2_202410101200034.py
+SearchEngine-InformationRetrieval-Projects/\n
+│\n
+├── Assignment1_202410101200034.py\n
+├── Assignment2_202410101200034.py\n
 └── README.md
 ---
 
