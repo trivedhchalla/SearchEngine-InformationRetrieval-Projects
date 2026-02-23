@@ -8,9 +8,9 @@ This repository contains assignments for the **Search Engine & Information Retri
 <pre>
 Search-engine-and-information-retreival/
 │
-├── Assigment1_202410101200034.py
+├── Assignment1_202410101200034.py
 │
-├── Assigment2_202410101200034.py
+├── Assignment2_202410101200034.py
 │
 └── README.md
 </pre>
@@ -18,7 +18,7 @@ Search-engine-and-information-retreival/
 
 ## Assignments
 
-### Assignment 1: Parse
+### Assignment 1: Parser
 
 Description:
 1. It takes a URL as input.
