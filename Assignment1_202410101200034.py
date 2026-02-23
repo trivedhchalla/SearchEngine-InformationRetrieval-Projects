@@ -1,3 +1,8 @@
+# Write a python program that takes a URL on the command line, fetches the page, and outputs (one per line).
+# 1. Page Title(without any html tags)
+# 2. Page Body (just the text, without any html tags)
+# 3. All the URLs that the page points/link to
+
 import subprocess as sp #for execute of curl or module used for automating terminal commands
 import sys#for taking command line arguments
 from bs4 import BeautifulSoup#for parsing the html
@@ -28,7 +33,7 @@ class SearchEngine:
         return 0
     # the dunder function: __str__ tell how to print this type of obj to console
     def __str__(self):
-        return f"Website URL: {self._url} \n\nTitle: {self._title} \n\nBody:{self._body} \n\nLinks:{self._links}"
+        return f"Title: {self._title} \nBody:{self._body} \nLinks:{self._links}"
     
 
 if(len(sys.argv) >= 2):
@@ -37,4 +42,5 @@ if(len(sys.argv) >= 2):
     search1.parseUrl()
     print(search1)
 else:
+
     print("Please enter correct number of arguments")
