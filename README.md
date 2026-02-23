@@ -26,7 +26,7 @@ Description:
 
 How to run:
 ```bash
-python Assignment1_202410101200034.py
+python Assignment1_202410101200034.py <url>
 ```
 ---
 
@@ -39,4 +39,4 @@ Description:
 
 How to run:
 ```bash
-python Assignment2_202410101200034.py
+python Assignment2_202410101200034.py <url1> <url2>
