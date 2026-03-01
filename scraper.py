@@ -31,16 +31,26 @@ class SearchEngine:
             print("Issue with website",e)
             print(e)
         return 0
-    # the dunder function: __str__ tell how to print this type of obj to console
-    def __str__(self):
-        return f"Title: {self._title} \nBody:{self._body} \nLinks:{self._links}"
-    
+    def printLinks(self):
+        for link in self._links:
+            print(link)
+        return 0
+    def printTitle(self):
+        print(self._title)
+        return 0
+
+    def printBody(self):
+        print(self._body)
+        return 0    
 
 if(len(sys.argv) >= 2):
     url1 = sys.argv[1]
     search1 = SearchEngine(url1)
     search1.parseUrl()
-    print(search1)
+    search1.printTitle()
+    search1.printBody()
+    search1.printLinks()
 else:
 
     print("Please enter correct number of arguments")
+
